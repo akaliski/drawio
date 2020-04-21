@@ -1,11 +1,11 @@
-<mxfile modified="2020-04-21T08:34:23.793Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="YcbGbrlEF4sq2Lvp4fmN" version="13.0.0" type="github">
+<mxfile modified="2020-04-21T08:38:18.688Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="HJ5KDjQQUqKOtaDHFCZD" version="13.0.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1170" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Rd7k1DUN7EmRphaQOlK2-62" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="420" y="40" width="700" height="740" as="geometry" />
+        <mxCell id="Rd7k1DUN7EmRphaQOlK2-62" value="" style="group;spacingTop=0;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="420" y="40" width="740" height="740" as="geometry" />
         </mxCell>
         <mxCell id="Rd7k1DUN7EmRphaQOlK2-14" value="Baza danych BAS" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" parent="Rd7k1DUN7EmRphaQOlK2-62" vertex="1">
           <mxGeometry width="320" height="360" as="geometry" />
@@ -143,6 +143,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Yy2PwH5LuU4qpZfuIs-y-3" value="&lt;span style=&quot;font-size: 10px&quot;&gt;REST/https&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Rd7k1DUN7EmRphaQOlK2-55">
+          <mxGeometry x="-0.5556" y="-26" relative="1" as="geometry">
+            <mxPoint x="4" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Rd7k1DUN7EmRphaQOlK2-54" value="Aplikacje /&lt;br&gt;Serwisy klienckie" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.client_application;fontSize=10;fontColor=#000000;" parent="Rd7k1DUN7EmRphaQOlK2-62" vertex="1">
           <mxGeometry x="650" y="354" width="50" height="32" as="geometry" />
         </mxCell>
@@ -159,8 +164,11 @@
         </mxCell>
         <mxCell id="Rd7k1DUN7EmRphaQOlK2-57" value="REST/https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" parent="Rd7k1DUN7EmRphaQOlK2-56" vertex="1" connectable="0">
           <mxGeometry x="-0.1873" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="32" y="22" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Yy2PwH5LuU4qpZfuIs-y-1" value="&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Struktury Elasticsearch&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Osobne indeksy dla każdego ze środowisk (gwiazdka to&amp;nbsp;prefiks środowiska)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Dostęp do indeksu poprzez alias, który pozwala na łatwiejsze zarządzanie (np. szybką podmianę po reindeksowaniu)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;gradientColor=#ffd966;" vertex="1" parent="Rd7k1DUN7EmRphaQOlK2-62">
+          <mxGeometry x="390" width="350" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Rd7k1DUN7EmRphaQOlK2-63" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;JOB: REFRESH_LOCAL_*_DATA&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Zadanie automatyczne odpowiedzialne za odświeżanie danych w lokalnej strukturze płaskiej. Zadanie uruchamia się okresowo i realizuje następującą sekwencję operacji:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;pobranie ostatniego HWM, dla którego wykonano z sukcesem poprzednie odświeżenie danych&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;pobranie danych z tabel źródłowych, których wyznaczony HWM jest większy od pobranego w poprzednim punkcie&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;przygotowanie dla każdego z pobranych rekordów dokumentu JSON + wyznaczenie sumy SHA-2&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;aktualizacja struktury płaskiej w oparciu o dane przygotowane w poprzednim punkcie (możliwa zmiana istniejącego statusu z INDEXED na TO_INDEX lub dodanie nowych rekordów TO_INDEX; plus ewentualnie TO_DELETE jeśli to jest możliwe)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;zapisanie do logów maksymalnego HWM, dla którego wykonano odświeżenie&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;gradientColor=#ffd966;" parent="1" vertex="1">
           <mxGeometry x="40" y="270" width="350" height="270" as="geometry" />

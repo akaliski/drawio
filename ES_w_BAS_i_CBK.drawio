@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-21T08:50:45.853Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="OTsAhfkuD-iy30gbrV2C" version="13.0.0" type="github">
+<mxfile modified="2020-04-21T08:52:14.865Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="cVe14BVYT5vOwKPJY4Z7" version="13.0.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1170" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -172,9 +172,6 @@
         </mxCell>
         <mxCell id="Yy2PwH5LuU4qpZfuIs-y-1" value="&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Struktury Elasticsearch&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Osobne indeksy dla każdego ze środowisk (gwiazdka to prefiks środowiska)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Indeksy są case i accent insensitive&lt;br&gt;&lt;/li&gt;&lt;li&gt;Dostęp do indeksu poprzez alias, który pozwala na łatwiejsze zarządzanie (np. szybką podmianę po reindeksowaniu)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-14;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;gradientColor=#ffd966;" vertex="1" parent="Rd7k1DUN7EmRphaQOlK2-62">
           <mxGeometry x="390" width="350" height="109.2" as="geometry" />
-        </mxCell>
-        <mxCell id="Yy2PwH5LuU4qpZfuIs-y-7" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Rd7k1DUN7EmRphaQOlK2-62">
-          <mxGeometry x="665" y="636" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Yy2PwH5LuU4qpZfuIs-y-6" value="&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Tabele &lt;/span&gt;BAS/CBK_PARAMETERS&lt;span style=&quot;font-weight: normal&quot;&gt; - wykorzystywane do przechowywania URL Elasticsearch, login i hasło do ES, nazwy aliasów indeksów, itp.&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;h1 style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Tabele &lt;/span&gt;BAS/CBK_ES_LOGS&lt;span style=&quot;font-weight: normal&quot;&gt; - wykorzystywane do przechowywania wyników działania zadań automatycznych odpowiedzialnych za utrzymywanie lokalnej struktury oraz wysyłkę do elasticsearch.&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-10;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;gradientColor=#ffd966;" vertex="1" parent="Rd7k1DUN7EmRphaQOlK2-62">
           <mxGeometry x="390" y="120" width="350" height="100" as="geometry" />
